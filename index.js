@@ -12,4 +12,3 @@ document.addEventListener('keydown', function(keys) {
     // stop if right ==== 0 (you hit the wall)
   }
 });
-
