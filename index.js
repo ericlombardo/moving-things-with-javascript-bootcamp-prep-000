@@ -18,7 +18,7 @@ function moveDodgerRight() {
   // makes it an int and tells it to go by 10's
   var left = parseInt(leftNumbers, 10);
   // if dodger hits the right side it stops
-  if (left !== 40) {
+  if (left !== 360) {
     dodger.style.left = `${left + 1}px`;
   }
 }
