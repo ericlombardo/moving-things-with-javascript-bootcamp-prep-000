@@ -1,7 +1,7 @@
 const app = "I don't do much."
 
 function moveDodgerLeft() {
-  // remove px / turn into number / assign dodger to left - 1
+  // 
   var leftNumbers = dodger.style.left.replace('px', '');
   var left = parseInt(leftNumbers, 10);
   if (left > 0) {
@@ -9,7 +9,6 @@ function moveDodgerLeft() {
   }
 }
 function moveDodgerRight() {
-  // get dodger / remove px / turn into number / assign dodger to left - 1
 }
 // create an event listener for key down of the id dodger
 document.addEventListener('keydown', function(keys) {
@@ -24,3 +23,8 @@ document.addEventListener('keydown', function(keys) {
     moveDodgerRight();
   }
 });
+
+
+finished the moveDodgerLeft
+transfer it over to move right
+make sure to use right
