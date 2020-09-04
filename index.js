@@ -20,7 +20,6 @@ function moveDodgerRight() {
     dodger.style.right = `${right - 1}px`;
   }
 }
-}
 // create an event listener for key down of the id dodger
 document.addEventListener('keydown', function(keys) {
   var dodger = document.getElementById('dodger');
