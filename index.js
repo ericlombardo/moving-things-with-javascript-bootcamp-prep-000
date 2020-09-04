@@ -3,6 +3,8 @@ const app = "I don't do much."
 // create an event listener for key down of the id dodger
 document.addEventListener('keydown', function(keys) {
   if (keys.which === 37) {
+    // run function
+  } if (keys.which === 39) {
     alert('bingo');
   }
 });
