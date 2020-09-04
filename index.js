@@ -1,5 +1,6 @@
 const app = "I don't do much."
 
+
 function moveDodgerLeft() {
   // removes the px from the left value
   var leftNumbers = dodger.style.left.replace('px', '');
@@ -10,8 +11,9 @@ function moveDodgerLeft() {
     dodger.style.left = `${left - 1}px`;
   }
 }
-function moveDodgerRight() {
 
+
+function moveDodgerRight() {
   var leftNumbers = dodger.style.left.replace('px', '');
   var left = parseInt(leftNumbers, 10);
   if (dodger.style.right > 0) {
