@@ -3,7 +3,9 @@ const app = "I don't do much."
 function moveDodgerLeft() {
   // get dodger / remove px / turn into number / assign dodger to left - 1
   var dodger = document.getElementById('dodger');
-  
+  var leftNumbers = dodger.style.left.remove('px', '');
+  var left = parseInt(leftNumbers, 10);
+  dodger.style.left = `${left - 1}`;
 }
 function moveDodgerRight() {
   // get dodger / remove px / turn into number / assign dodger to left - 1
