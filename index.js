@@ -16,9 +16,9 @@ function moveDodgerLeft() {
 function moveDodgerRight() {
   var rightNumbers = dodger.style.right.replace('px', '');
   var right = parseInt(rightNumbers, 10);
-  
+
     dodger.style.right = `${right - 1}px`;
-  
+
 }
 // create an event listener for key down of the id dodger
 document.addEventListener('keydown', function(keys) {
