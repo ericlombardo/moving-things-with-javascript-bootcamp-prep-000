@@ -2,7 +2,8 @@ const app = "I don't do much."
 
 function moveDodgerLeft() {
   // get dodger / remove px / turn into number / assign dodger to left - 1
-  var dodger = $('#dodger');
+  var dodger = document.getElementById('dodger');
+  
   console.log(dodger);
 }
 function moveDodgerRight() {
