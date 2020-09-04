@@ -13,7 +13,7 @@ function moveDodgerLeft() {
 function moveDodgerRight() {
   alert('bingo');
   var rightNumbers = dodger.style.right.replace('px', '');
-  alert('rightNumbers');
+  alert(rightNumbers);
 }
 // create an event listener for key down of the id dodger
 document.addEventListener('keydown', function(keys) {
