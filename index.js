@@ -4,7 +4,7 @@ function moveDodgerLeft() {
   // get dodger / remove px / turn into number / assign dodger to left - 1
   var dodger = document.getElementById('dodger');
   
-  console.log(dodger);
+  alert(dodger.style);
 }
 function moveDodgerRight() {
   // get dodger / remove px / turn into number / assign dodger to left - 1
