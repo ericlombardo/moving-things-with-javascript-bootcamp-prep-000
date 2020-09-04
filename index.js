@@ -8,6 +8,7 @@ document.addEventListener('keydown', function(keys) {
   // if left key is pressed
   if (keys.which === 37) {
     // run function
+    moveDodgerLeft();
     // stop if left ==== 0 (you hit the wall)
   // if right key is pressed
   } if (keys.which === 39) {
