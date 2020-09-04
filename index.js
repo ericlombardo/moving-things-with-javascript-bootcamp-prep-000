@@ -6,9 +6,9 @@ function moveDodgerLeft() {
   // make the value a number and tells it to go by 10's
   var left = parseInt(leftNumbers, 10);
   // if the item hasn't hit the edge it moves one px
-  //if (left > 0) {
+  if (left > 0) {
     dodger.style.left = `${left - 1}px`;
-  //}
+  }
 }
 function moveDodgerRight() {
 }
@@ -27,6 +27,3 @@ document.addEventListener('keydown', function(keys) {
 });
 
 
-finished the moveDodgerLeft
-transfer it over to move right
-make sure to use right
