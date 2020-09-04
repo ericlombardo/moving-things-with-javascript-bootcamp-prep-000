@@ -5,7 +5,7 @@ function moveDodgerLeft() {
   var leftNumbers = dodger.style.left.replace('px', '');
   var left = parseInt(leftNumbers, 10);
 
-  dodger.style.left = `${left - 1}`;
+  dodger.style.left = `${left - 1}px`;
 }
 function moveDodgerRight() {
   // get dodger / remove px / turn into number / assign dodger to left - 1
