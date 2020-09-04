@@ -14,11 +14,14 @@ function moveDodgerLeft() {
 
 
 function moveDodgerRight() {
-  var rightNumbers = dodger.style.right.replace('px', '');
-  var right = parseInt(rightNumbers, 10);
-
-  dodger.style.right = `${right - 1}px`;
-
+  // removes the px from the left value
+  var leftNumbers = dodger.style.left.replace('px', '');
+  // make the value a number and tells it to go by 10's
+  var left = parseInt(leftNumbers, 10);
+  // if the item hasn't hit the edge it moves one px
+  if (dodger.style.right > '0px') {
+    dodger.style.left = `${left - 1}px`;
+  }
 }
 // create an event listener for key down of the id dodger
 document.addEventListener('keydown', function(keys) {
