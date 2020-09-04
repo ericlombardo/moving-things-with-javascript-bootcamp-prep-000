@@ -19,7 +19,9 @@ function moveDodgerRight() {
   // make the value a number and tells it to go by 10's
   var left = parseInt(leftNumbers, 10);
   // if the item hasn't hit the edge it moves one px
-  alert(dodger.style.right);
+  if (left > 90) {
+    dodger.style.left = `${left + 1}`;
+  }
 }
 // create an event listener for key down of the id dodger
 document.addEventListener('keydown', function(keys) {
