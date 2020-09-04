@@ -14,9 +14,12 @@ function moveDodgerLeft() {
 
 
 function moveDodgerRight() {
+  // removes 'px' from the value returned
   var leftNumbers = dodger.style.left.replace('px', '');
+  // makes it an int and tells it to go by 10's
   var left = parseInt(leftNumbers, 10);
-  if (left > 40) {
+  // if dodger hits the right side it stops
+  if (dodger.style.right != 0) {
     dodger.style.left = `${left + 1}px`;
   }
 }
