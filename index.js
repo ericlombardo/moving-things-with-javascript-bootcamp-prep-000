@@ -2,10 +2,11 @@ const app = "I don't do much."
 
 function moveDodgerLeft() {
   // get dodger / remove px / turn into number / assign dodger to left - 1
+  var dodger = $('#dodger');
+  console.log(dodger);
 }
 function moveDodgerRight() {
   // get dodger / remove px / turn into number / assign dodger to left - 1
-  alert('bingo');
 }
 // create an event listener for key down of the id dodger
 document.addEventListener('keydown', function(keys) {
