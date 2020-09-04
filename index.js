@@ -24,3 +24,8 @@ document.addEventListener('keydown', function(keys) {
     // stop if right ==== 0 (you hit the wall)
   }
 });
+
+
+Working on the movedodger left function
+need to look at an if statement and think through the flow
+when a key is pressed, check if left is 0 else run function
