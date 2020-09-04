@@ -1,6 +1,10 @@
 const app = "I don't do much."
 
 function moveDodgerLeft() {
+  // get dodger / remove px / turn into number / assign dodger to left - 1
+}
+function moveDodgerRight() {
+  // get dodger / remove px / turn into number / assign dodger to left - 1
   alert('bingo');
 }
 // create an event listener for key down of the id dodger
@@ -13,6 +17,7 @@ document.addEventListener('keydown', function(keys) {
   // if right key is pressed
   } if (keys.which === 39) {
     // run function
+    moveDodgerRight();
     // stop if right ==== 0 (you hit the wall)
   }
 });
