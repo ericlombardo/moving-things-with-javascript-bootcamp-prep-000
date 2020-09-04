@@ -2,11 +2,14 @@ const app = "I don't do much."
 
 // create an event listener for key down of the id dodger
 document.addEventListener('keydown', function(keys) {
+  // if left key is pressed
   if (keys.which === 37) {
     // run function
+    // stop if left ==== 0 (you hit the wall)
+  // if right key is pressed
   } if (keys.which === 39) {
-    alert('bingo');
+    // run function
+    // stop if right ==== 0 (you hit the wall)
   }
 });
-// if value equals left run moveLeft func
-// if value equals right run moveRight func
+
