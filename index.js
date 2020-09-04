@@ -17,7 +17,7 @@ function moveDodgerRight() {
   var right = parseInt(rightNumbers, 10);
   // if the item hasn't hit the edge it moves one px
   if (right > 0) {
-    dodger.style.right = `${right - 1}px`;
+    dodger.style.right = `${left + 1}px`;
   }
 }
 // create an event listener for key down of the id dodger
