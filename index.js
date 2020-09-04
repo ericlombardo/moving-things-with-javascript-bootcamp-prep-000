@@ -1,5 +1,8 @@
 const app = "I don't do much."
 
+function moveDodgerLeft() {
+  alert('bingo');
+}
 // create an event listener for key down of the id dodger
 document.addEventListener('keydown', function(keys) {
   // if left key is pressed
